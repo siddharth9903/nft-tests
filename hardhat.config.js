@@ -22,8 +22,11 @@ module.exports = {
   //   }
   // },
   networks: {
+    // ganache: {
+    //   url: "http://127.0.0.1:7545", // default Ganache UI endpoint
+    // },
     ganache: {
-      url: "http://127.0.0.1:7545", // default Ganache UI endpoint
+      url: "http://127.0.0.1:8545", // Default Ganache CLI URL
     },
   },
 };
